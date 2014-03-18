@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app>
+	<head>
+		<title>Podcast Finder</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" media="all" href="app/css/app.css" />
+	</head>
+	<body data-ng-controller="initCtrl" data-ng-init="init()">
+		<h1>Podcast Finder</h1>
+		<div class="hero" ng-style="heroImage">
+        <div class="mask"></div>
+        <div class="content" ng-view>
+        </div>
+        </div>
+		<ul class="footer">
+            <li>My:</li>
+			<li><a href="">projects</a></li>
+			<li><a href="">tweets</a></li>
+			<li><a href="">links</a></li>
+			<li><a href="">photos</a></li>
+			<li><a href="">blog</a></li>
+		</ul>
+		<script data-main="app/js/main" src="app/js/libraries/require.js"></script>		
+	</body>
+</html>

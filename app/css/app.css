@@ -1,0 +1,97 @@
+/* app css stylesheet */
+body {
+    color: #707077;
+    font-family: 'Open Sans', 'PT Sans', Gotham, Arial Bold, sans-serif;
+    font-weight: 700;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+a {
+    color: #5b0c21;
+    text-decoration: none;
+}
+a:hover {
+    color: #783947;
+}
+form {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+input[type="text"] {
+    width: 60%;
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+h1 {
+    font-family: 'PT Sans', Gotham, Arial Bold, sans-serif;
+    font-size: 4em;
+    margin: 12px;
+    text-transform: uppercase;
+}
+.hero {
+    height: 85%;
+    position: relative;
+    width: 100%;
+}
+.mask {
+    background-color: white;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    width: 100%;
+}
+.content {
+    background-color: #5b0c21;
+    color: white;
+    height: 100%;
+    padding: 2%;
+    width: 33em;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: 2;
+}
+.content a {
+    color: #c9bdc1;
+}
+.content a:hover {
+    color: white;
+}
+.footer li {
+    display: inline;
+}

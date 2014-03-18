@@ -1,0 +1,23 @@
+<p>
+Podcast Finder recommends new podcasts based on the listening habits of other people who like your favorite podcast creators.  
+<p>
+<form name="chooseFavorites" action="#results">
+<div>
+<div class="ui-widget">
+	<label for="username">Username (optional)**:</label><br />
+	<input type="text" name="username" id="username" />
+</div>
+<div class="ui-widget">
+	<label for="favorite">Podcast 1:</label><br />
+	<input type="text" class="podInput" name="favorite" id="favorite" />
+</div>
+<div class="ui-widget">
+	<label for="favorite">Podcast 2:</label><br />
+	<input type="text" class="podInput" name="favorite2" id="favorite2" />
+</div>
+</div>
+	<input class="formbutton" type="button" value="Find" ng-click="submitForm()" />
+</form>
+<p>
+Want all the podcasts in the database?  Here's the <a href="http://jamidwyer.com/podcastfinder/api">json</a>.
+</p>
